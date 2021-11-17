@@ -1,0 +1,393 @@
+.html, body {
+margin: 0;
+padding: 0;
+width: 100%;
+color: rgb(0, 0, 0);
+font-family: 'Andika', sans-serif;
+background-image: url("../dasha_img/фон.jpg");
+background-attachment: fixed;
+background-size: cover;
+font-family: 'Pangolin', cursive;
+}
+    
+.container{
+width: 80%;
+margin: 0 auto;
+}
+
+.big_title{
+margin-top: 7%;
+font-size: 80px;
+font-family: 'Marck Script', cursive;
+text-align: center;
+}
+
+.intro{
+display: flex;
+margin-top: 5%;
+height: 580px;
+}
+
+.intro_content{
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 70%;
+height: 500px;
+background-color: rgb(255, 255, 255);
+box-shadow: 0px 3px 13px 19px rgba(34, 60, 80, 0.18);
+outline: 4px dashed rgba(171, 98, 184, 0.8); /* Пунктирная рамка */
+outline-offset: -20px; /* Выводим рамку внутри элемента */
+padding: 10px; /* Поля */
+min-height: 100px; /* Минимальная высота */
+padding: 40px 40px 40px 40px;
+text-align: center;
+font-size: 30px;
+position: relative;
+font-family: 'Marck Script', cursive;}
+
+.intro_text{
+width: 50%;
+font-size: 30px;
+display: flex;
+flex-direction: column;
+text-align: left;
+font-family: 'Pangolin', cursive;
+}
+
+.mini_title{
+font-size: 60px;
+font-family: 'Marck Script', cursive;
+}
+
+.intro_photo{
+width: 50%;
+height: 580px;
+display: flex;
+justify-content:center;
+align-items: center;
+}
+
+.photo2{
+height: 100%;
+}
+
+.photo3{
+height: 80%;
+}
+
+.hobby{
+display: flex;
+margin-top: 5%;
+flex-direction: column;
+}
+
+.hobby_title{
+font-size: 80px;
+text-align: center;
+color: rgb(0, 0, 0);
+font-family: 'Marck Script', cursive;
+margin-bottom: 3%;
+}
+
+.hobby_subtitle{
+font-size: 40px;
+color: rgb(0, 0, 0);
+text-align: center;
+font-family: 'Marck Script', cursive;
+margin-top: 3%;
+}
+
+.hobby_content{
+display: flex;
+margin-top: 3%;
+}
+
+.hobby_items{
+display: flex;
+margin-top: 3%;
+justify-content: space-around;
+width: 70%;
+
+}
+
+.hobby_inf{
+width: 25%;
+border-radius: 10%;
+background-color: khaki;
+padding: 20px 20px 20px 20px;
+height: 65%;
+outline: 4px dashed rgba(171, 98, 184, 0.8); /* Пунктирная рамка */
+outline-offset: -20px; /* Выводим рамку внутри элемента */
+padding: 10px; /* Поля */
+min-height: 100px; /* Минимальная высота */
+padding: 40px 40px 40px 40px;
+text-align: center;
+font-size: 20px;
+}
+
+.hobby_inf:hover{
+background-color: rgb(226, 215, 113);
+
+}
+
+.hobby_photo{
+width: 30%;
+display: flex;
+justify-content: center;
+}
+
+.photo4{
+height: 100%;
+}
+
+.love{
+display: flex;
+background-color: rgb(255, 255, 255);
+box-shadow: 0px 3px 13px 19px rgba(34, 60, 80, 0.18);
+outline: 4px dashed rgba(171, 98, 184, 0.8); /* Пунктирная рамка */
+outline-offset: -20px; /* Выводим рамку внутри элемента */
+padding: 10px; /* Поля */
+min-height: 100px; /* Минимальная высота */
+padding: 40px 40px 40px 40px;
+width: 80%;
+margin: 0 auto;
+margin-top: 5%;
+margin-bottom: 5%;
+justify-content:space-around;
+
+}
+
+.love_content{
+width: 70%;
+
+
+}
+
+.love_img{
+width: 30%;
+
+}
+
+.love_item{
+
+width: 80%;
+}
+
+.min_title{
+font-size: 50px;
+font-family: 'Marck Script', cursive;
+}
+
+.photoline{
+display: flex;
+justify-content: space-around;
+margin-top: 5%;
+margin-bottom: 5%;
+align-items: center;
+}
+
+.photoline_photo{
+width: 25%;
+box-shadow: 0px 3px 13px 19px rgba(34, 60, 80, 0.18);
+}
+
+.photoline_photo2{
+width: 25%; 
+display: flex;
+justify-content: center;
+
+}
+
+.photo5{
+width: 100%;
+height: 100%;}
+
+.photo5:hover{
+outline: 4px dashed rgba(171, 98, 184, 0.8); /* Пунктирная рамка */
+outline-offset: -20px; /* Выводим рамку внутри элемента */
+min-height: 100px; /* Минимальная высота */
+}
+.photo6{
+    width: 70%;
+    box-shadow: 0px 3px 13px 19px rgba(34, 60, 80, 0.18);
+    }
+
+    .photo6:hover{
+        outline: 4px dashed rgba(171, 98, 184, 0.8); /* Пунктирная рамка */
+        outline-offset: -20px; /* Выводим рамку внутри элемента */
+        min-height: 100px; /* Минимальная высота */      
+    }
+
+    .photo7{
+    width:80%;
+        }
+
+
+.love_text{
+font-size: 30px;
+}
+
+.film{
+text-decoration: none;
+color:rgba(171, 98, 184, 0.8) ;
+}
+
+.film:hover{
+text-decoration:underline;
+transition: .7s;
+color:rgba(131, 78, 141, 0.8) ;
+}
+
+.qote{
+display: flex;
+margin: 0 auto;
+width: 80%;
+border-top:2px solid #000 ;
+border-bottom:2px solid #000 ;
+font-size: 40px;
+font-family: 'Marck Script', cursive;
+margin-bottom: 5%;
+text-align: center;
+padding: 40px 40px 40px 40px;
+}
+
+.qote_img{
+width: 20%;
+}
+
+.pic2{
+width: 70px;
+}
+
+.qote_text{
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+
+.qote_text2{
+display: flex;
+justify-content: right;
+text-align: right;
+font-family: 'Petemoss', cursive;
+font-size: 50px;
+}
+
+.photo_block{
+display: flex;
+flex-direction: column;
+
+}
+
+.line1{
+display: flex;
+justify-content: space-around;
+margin-bottom: 3%;
+}
+
+.img1{
+width: 30%;
+}
+
+.img_i{
+height: 500px;
+width: 70%;
+position: block;
+}
+
+    
+    .img_i:hover{
+    height: 500px;
+    width: 70%;
+    outline: 4px dashed rgba(171, 98, 184, 0.8); /* Пунктирная рамка */
+    outline-offset: -20px; /* Выводим рамку внутри элемента */
+min-height: 100px; /* Минимальная высота */
+    }
+
+.footer{
+display: flex;
+margin-bottom: 5%;
+}
+
+.f_text{
+display: flex;
+flex-direction: column;
+width: 70%;
+
+justify-content: center;
+}
+
+.soc_b{
+display: flex;
+align-items: center;
+}
+
+.img_foot{
+width: 100px;
+}
+
+.VK{
+width:70px;
+}
+
+.VK:hover{
+    width:80px;
+    transition: 1s;
+    }
+
+.text_s{
+font-size: 40px;
+text-decoration: none;
+color:rgba(122, 68, 131, 0.8);
+}    
+
+.f_img{
+width: 50%;
+display: flex;
+justify-content: right;
+}
+
+.soc{
+    text-decoration: none;
+    color:rgba(122, 68, 131, 0.8);}
+
+.soc:hover{
+    color:rgba(93, 25, 107, 0.8);
+    transition: .5s;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: rgb(245, 184, 209);
+    position: fixed;
+    z-index: 3;
+    top: 0;
+    width: 100%;
+  }
+  
+  .navbar a {
+    float: left;
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+    border-right: 1px solid #7a7a7a50;
+  }
+  
+  .navbar a:hover {
+    background-color: rgb(197, 149, 169);
+    color: rgb(0, 0, 0);
+  }
+
+.liz{
+font-size: 20px;
+text-align: center;
+height: 40px;
+display:flex ;
+justify-content: center;
+align-items: center;
+background-color: rgba(171, 98, 184, 0.8);
+}
